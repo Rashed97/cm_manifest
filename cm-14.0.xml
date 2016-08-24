@@ -12,6 +12,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/hardware/qcom/power" />
   <project path="build" name="Rashed97/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
