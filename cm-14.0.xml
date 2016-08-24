@@ -28,7 +28,7 @@
   <project path="frameworks/base" name="invisiblek/android_frameworks_base" remote="github"/>
   <project path="frameworks/native" name="invisiblek/android_frameworks_native" remote="github"/>
   <project path="system/extras" name="bmc08gt/android_system_extras" remote="github"/>
-  <project path="external/f2fs-tools" name="bmc08gt/android_external_f2fs-tools" remote="github" revision="cm-14.0"/>
+  <project path="external/f2fs-tools" name="bmc08gt/android_external_f2fs-tools" remote="github" />
   <!-- END CYANOGENMOD -->
 
 </manifest>
