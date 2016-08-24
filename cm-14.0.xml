@@ -10,9 +10,10 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/hardware/qcom/power" />
   <project path="build" name="Rashed97/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -30,6 +31,7 @@
   <project path="frameworks/native" name="invisiblek/android_frameworks_native" remote="github"/>
   <project path="system/extras" name="bmc08gt/android_system_extras" remote="github"/>
   <project path="external/f2fs-tools" name="bmc08gt/android_external_f2fs-tools" remote="github" />
+  <project path="hardware/ril" name="invisiblek/android_hardware_ril" remote="github" />
   <!-- END CYANOGENMOD -->
 
 </manifest>
