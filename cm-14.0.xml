@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com"
+           review="review.cyanogenmod.org"
+           revision="cm-14.0" />
+
+  <!-- BEGIN CYANOGENMOD -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project path="build" name="Rashed97/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-13.0" remote="github"/>
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" remote="github"/>
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="cm-13.0" remote="github"/>
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-13.0" remote="github"/>
+  <project path="vendor/cm" name="invisiblek/android_vendor_cm" remote="github"/>
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-13.0" remote="github"/>
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" remote="github"/>
+  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" revision="cm-13.0" remote="github"/>
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="cm-13.0" remote="github"/>
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" revision="cm-13.0" remote="github"/>
+  <project path="frameworks/base" name="invisiblek/android_frameworks_base" remote="github"/>
+  <project path="frameworks/native" name="invisiblek/android_frameworks_native" remote="github"/>
+  <project path="system/extras" name="bmc08gt/android_system_extras" remote="github"/>
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0"/>
+  <!-- END CYANOGENMOD -->
+
+</manifest>
