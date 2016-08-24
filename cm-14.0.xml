@@ -23,7 +23,7 @@
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-13.0" remote="github"/>
   <project path="vendor/cm" name="invisiblek/android_vendor_cm" remote="github"/>
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-13.0" remote="github"/>
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" remote="github"/>
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" clone-depth="1" remote="github"/>
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" revision="cm-13.0" remote="github"/>
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="cm-13.0" remote="github"/>
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" revision="cm-13.0" remote="github"/>
