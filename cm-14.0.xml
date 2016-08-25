@@ -25,6 +25,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/hardware/libhardware" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -58,8 +59,9 @@
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" revision="staging/cm-14.0" remote="github" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" revision="staging/cm-14.0" remote="github" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" revision="staging/cm-14.0" remote="github" />
-   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" revision="staging/cm-14.0" remote="github" />
+  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" revision="staging/cm-14.0" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio/default" name="Rashed97/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
