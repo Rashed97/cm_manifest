@@ -14,6 +14,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/system/core" />
   <project path="build" name="Rashed97/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -30,6 +31,7 @@
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-13.0" remote="github"/>
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-13.0" remote="github"/>
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-13.0" remote="github"/>
+  <project path="system/core" name="CyanogenMod/android_system_core" revision="staging/cm-14.0" remote="github" />
   <!-- END CYANOGENMOD -->
 
 </manifest>
