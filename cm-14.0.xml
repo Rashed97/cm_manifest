@@ -65,6 +65,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/broadcom/libbt" name="Rashed97/android_hardware_broadcom_libbt" revision="staging/cm-14.0" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio/default" name="Rashed97/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
