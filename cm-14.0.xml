@@ -38,7 +38,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio/default" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio/default" name="Rashed97/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8937" remote="github"  />
@@ -49,7 +49,7 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8996" remote="github"  />
 
   <remove-project name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="Rashed97/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-14.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8937" remote="github"  />
@@ -60,7 +60,7 @@
   <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8996" remote="github"  />
 
   <remove-project name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/media/default" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/media" name="Rashed97/android_hardware_qcom_media" groups="qcom" revision="cm-14.0" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8937" remote="github"  />
