@@ -26,7 +26,7 @@
   <project path="vendor/cm" name="invisiblek/android_vendor_cm" remote="github"/>
   <project path="frameworks/base" name="invisiblek/android_frameworks_base" remote="github"/>
   <project path="frameworks/native" name="invisiblek/android_frameworks_native" remote="github"/>
-  <project path="system/extras" name="luca020400/android_system_extras" remote="github"/>
+  <project path="system/extras" name="CyanogenMod/android_system_extras" revision="staging/cm-14.0" remote="github"/>
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/ril" name="invisiblek/android_hardware_ril" remote="github" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-13.0" remote="github"/>
