@@ -1,8 +1,6 @@
 # bootable/recovery
 158114
 158130
-#external/elfutils
-158126
 # external/toybox
 158116
 # build
