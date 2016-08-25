@@ -25,6 +25,8 @@
   <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/hardware/libhardware" />
@@ -63,6 +65,8 @@
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" revision="staging/cm-14.0" remote="github" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" revision="staging/cm-14.0" remote="github" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
+  <project path="system/bt" name="Rashed97/android_system_bt" revision="staging/cm-14.0" remote="github" />
+  <project path="system/media" name="Rashed97/android_system_media" revision="staging/cm-14.0" remote="github" />
   <project path="system/sepolicy" name="bmc08gt/android_system_sepolicy" revision="staging/cm-14.0" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0" remote="github" />
@@ -106,7 +110,7 @@
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" remote="github" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" remote="github" />
   <!-- END CYANOGENMOD -->
-  
+
   <project path="cm_manifest" name="Rashed97/cm_manifest" remote="github" revision="master" />
 
 </manifest>
