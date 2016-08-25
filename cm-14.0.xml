@@ -45,12 +45,14 @@
   <project path="system/core" name="CyanogenMod/android_system_core" revision="staging/cm-14.0" remote="github" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="staging/cm-14.0" remote="github" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" revision="staging/cm-14.0" remote="github" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" revision="staging/cm-14.0" remote="github" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" revision="staging/cm-14.0" remote="github" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" revision="staging/cm-14.0" remote="github" />
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" revision="staging/cm-14.0" remote="github" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" revision="staging/cm-14.0" remote="github" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" revision="staging/cm-14.0" remote="github" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" revision="staging/cm-14.0" remote="github" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" revision="staging/cm-14.0" remote="github" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" revision="staging/cm-14.0" remote="github" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" revision="staging/cm-14.0" remote="github" />
@@ -90,7 +92,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8994" remote="github"  />
   <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8996" remote="github"  />
   <!-- END CYANOGENMOD -->
-  
-  <project path="cm_manifest" name="Rashed97/cm_manifest" remote="github" revision="master" />
+
+  <!--project path="cm_manifest" name="Rashed97/cm_manifest" remote="github" revision="master" /-->
 
 </manifest>
