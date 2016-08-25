@@ -23,6 +23,7 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/system/vold" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
@@ -57,6 +58,7 @@
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" revision="staging/cm-14.0" remote="github" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" revision="staging/cm-14.0" remote="github" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" revision="staging/cm-14.0" remote="github" />
+   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" revision="staging/cm-14.0" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
