@@ -52,6 +52,7 @@
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" revision="staging/cm-14.0" remote="github" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" revision="staging/cm-14.0" remote="github" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" revision="staging/cm-14.0" remote="github" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" revision="staging/cm-14.0" remote="github" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" revision="staging/cm-14.0" remote="github" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" revision="staging/cm-14.0" remote="github" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" revision="staging/cm-14.0" remote="github" />
