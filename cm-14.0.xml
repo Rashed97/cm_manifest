@@ -21,6 +21,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/mksh" />
@@ -59,6 +60,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" revision="staging/cm-14.0" remote="github" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" revision="staging/cm-14.0" remote="github" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" revision="staging/cm-14.0" remote="github" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" revision="staging/cm-14.0" remote="github" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" revision="staging/cm-14.0" remote="github" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" revision="staging/cm-14.0" remote="github" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" revision="staging/cm-14.0" remote="github" />
@@ -66,7 +68,7 @@
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" revision="staging/cm-14.0" remote="github" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
   <project path="system/bt" name="Rashed97/android_system_bt" revision="staging/cm-14.0" remote="github" />
-  <project path="system/media" name="Rashed97/android_system_media" revision="staging/cm-14.0" remote="github" />
+  <project path="system/media" name="CyanogenMod/android_system_media" revision="staging/cm-14.0" remote="github" />
   <project path="system/sepolicy" name="bmc08gt/android_system_sepolicy" revision="staging/cm-14.0" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0" remote="github" />
@@ -74,7 +76,7 @@
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio/default" name="Rashed97/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8937" remote="github"  />
@@ -85,7 +87,7 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8996" remote="github"  />
 
   <remove-project name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/display" name="Rashed97/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8937" remote="github"  />
@@ -96,7 +98,7 @@
   <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8996" remote="github"  />
 
   <remove-project name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/media/default" name="Rashed97/android_hardware_qcom_media" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8084" remote="github"  />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8916" remote="github"  />
   <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8937" remote="github"  />
