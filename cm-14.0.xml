@@ -96,6 +96,6 @@
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" remote="github" />
   <!-- END CYANOGENMOD -->
   
-  <!-- <project path="cm_manifest" name="Rashed97/cm_manifest" remote="github" revision="master" /> -->
+  <project path="cm_manifest" name="Rashed97/cm_manifest" remote="github" revision="master" />
 
 </manifest>
