@@ -16,7 +16,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/bionic" />
-  <project path="build" name="Rashed97/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
+  <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-13.0" remote="github"/>
