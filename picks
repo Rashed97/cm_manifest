@@ -1,3 +1,4 @@
+picks=(
 # bootable/recovery
 158328
 # external/fuse
@@ -16,3 +17,12 @@
 158285
 # hardware/libhardware
 158286
+)
+
+[ ! -f build/envsetup.sh ] && echo "Nah, you don't appear to be at the top of your source tree!" && exit 1
+
+source build/envsetup.sh
+
+for p in ${picks[@]}; do
+  [[ ${p:0:1} != '#' ]] && repopick $p
+done
