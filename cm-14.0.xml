@@ -116,7 +116,7 @@
 
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0" remote="github" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-13.0-caf" remote="github" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" remote="github" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" remote="github" />
