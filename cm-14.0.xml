@@ -74,7 +74,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" revision="staging/cm-14.0" remote="github" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="staging/cm-14.0" remote="github" />
   <project path="system/media" name="CyanogenMod/android_system_media" revision="staging/cm-14.0" remote="github" />
-  <project path="system/sepolicy" name="bmc08gt/android_system_sepolicy" revision="staging/cm-14.0" remote="github" />
+  <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" revision="staging/cm-14.0" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/broadcom/libbt" name="Rashed97/android_hardware_broadcom_libbt" remote="github" revision="staging/cm-14.0" />
