@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# list picks inside the picks array
+# ignores any element that starts with #
+# supports:
+#           12345       <-- pick a specific commit
+#           -twhatever  <-- picks topic 'whatever' (intentionally no space in there)
+
 picks=(
 # bootable/recovery
 158328
@@ -26,5 +32,13 @@ picks=(
 source build/envsetup.sh
 
 for p in ${picks[@]}; do
-  [[ ${p:0:1} != '#' ]] && repopick $p
+  if [[ ${p:0:1} == '#' ]]; then
+    continue
+  elif [[ ${p:0:2} == '-t' ]]; then
+    t=`echo $p | sed -r 's/^.{2}//'`
+    repopick -t $t
+  else
+    echo $p
+    repopick $p
+  fi
 done
