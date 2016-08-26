@@ -35,6 +35,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -80,6 +81,7 @@
   <project path="hardware/broadcom/libbt" name="Rashed97/android_hardware_broadcom_libbt" remote="github" revision="staging/cm-14.0" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0" remote="github" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0" remote="github" />
+  <project path="packages/providers/TelephonyProvider" name="bmc08gt/android_packages_providers_TelephonyProvider" revision="staging/cm-14.0" remote="github" />
 
   <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0" remote="github" />
