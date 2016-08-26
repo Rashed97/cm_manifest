@@ -38,7 +38,6 @@ for p in ${picks[@]}; do
     t=`echo $p | sed -r 's/^.{2}//'`
     repopick -t $t
   else
-    echo $p
     repopick $p
   fi
 done
