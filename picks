@@ -19,8 +19,9 @@ picks=(
 158322
 158325
 # build
-158189
+-tkill_colors
 158324
+158337
 # frameworks/av
 158285
 # hardware/libhardware
