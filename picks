@@ -25,6 +25,12 @@ picks=(
 158285
 # hardware/libhardware
 158286
+# system/core
+158335
+158336
+# frameworks/native
+158340
+158341
 )
 
 [ ! -f build/envsetup.sh ] && echo "Nah, you don't appear to be at the top of your source tree!" && exit 1
