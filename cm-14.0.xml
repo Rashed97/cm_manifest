@@ -39,11 +39,11 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="github" revision="staging/cm-14.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="bmc08gt/android_build_kati" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-13.0" remote="github"/>
-  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" remote="github"/>
-  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="cm-13.0" remote="github"/>
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-13.0" remote="github"/>
+  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="staging/cm-14.0" remote="github"/>
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="staging/cm-14.0" remote="github"/>
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="staging/cm-14.0" remote="github"/>
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="staging/cm-14.0" remote="github"/>
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" revision="staging/cm-14.0" remote="github"/>
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" revision="staging/cm-14.0" remote="github"/>
   <project path="frameworks/base" name="invisiblek/android_frameworks_base" remote="github"/>
@@ -51,9 +51,9 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" revision="staging/cm-14.0" remote="github"/>
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" revision="staging/cm-14.0" remote="github" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-13.0" remote="github"/>
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-13.0" remote="github"/>
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-13.0" remote="github"/>
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="staging/cm-14.0" remote="github"/>
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="staging/cm-14.0" remote="github"/>
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="staging/cm-14.0" remote="github"/>
   <project path="system/core" name="CyanogenMod/android_system_core" revision="staging/cm-14.0" remote="github" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="staging/cm-14.0" remote="github" />
