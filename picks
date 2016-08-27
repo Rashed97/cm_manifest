@@ -17,6 +17,9 @@ picks=(
 158337
 # hardware/libhardware
 158286
+# packages/providers/TelephonyProvider
+158465
+158466
 )
 
 [ ! -f build/envsetup.sh ] && echo "Nah, you don't appear to be at the top of your source tree!" && exit 1
