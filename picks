@@ -13,8 +13,6 @@ picks=(
 158310
 # vendor/cm
 158322
-# build
-158337
 # hardware/libhardware
 158286
 # packages/providers/TelephonyProvider
