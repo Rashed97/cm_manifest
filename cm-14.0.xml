@@ -85,7 +85,7 @@
   <project path="hardware/broadcom/libbt" name="Rashed97/android_hardware_broadcom_libbt" remote="github" revision="staging/cm-14.0" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0" remote="github" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0" remote="github" />
-  <project path="packages/providers/TelephonyProvider" name="bmc08gt/android_packages_providers_TelephonyProvider" revision="staging/cm-14.0" remote="github" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" revision="staging/cm-14.0" remote="github" />
 
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" remote="github"  />
