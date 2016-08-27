@@ -18,6 +18,8 @@ picks=(
 # packages/providers/TelephonyProvider
 158465
 158466
+# bionic
+158551
 )
 
 [ ! -f build/envsetup.sh ] && echo "Nah, you don't appear to be at the top of your source tree!" && exit 1
