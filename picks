@@ -7,8 +7,6 @@
 #           -twhatever  <-- picks topic 'whatever' (intentionally no space in there)
 
 picks=(
-# external/stlport
-158215
 # vendor/cm
 158322
 # hardware/libhardware
