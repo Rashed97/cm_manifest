@@ -60,7 +60,7 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="staging/cm-14.0" remote="github"/>
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="staging/cm-14.0" remote="github"/>
   <project path="system/core" name="CyanogenMod/android_system_core" revision="staging/cm-14.0" remote="github" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" revision="staging/cm-14.0" remote="github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="staging/cm-14.0" remote="github" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" revision="staging/cm-14.0" remote="github" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" revision="staging/cm-14.0" remote="github" />
