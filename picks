@@ -3,8 +3,9 @@
 # list picks inside the picks array
 # ignores any element that starts with #
 # supports:
-#           12345       <-- pick a specific commit
-#           -twhatever  <-- picks topic 'whatever' (intentionally no space in there)
+#           12345                <-- pick a specific commit
+#           -twhatever           <-- picks topic 'whatever' (intentionally no space in there)
+#           -twhatever-e123,125  <-- picks topic 'whatever', excluding picks numbered 123 and 125)
 
 picks=(
 # hardware/libhardware
@@ -22,7 +23,15 @@ for p in ${picks[@]}; do
     continue
   elif [[ ${p:0:2} == '-t' ]]; then
     t=`echo $p | sed -r 's/^.{2}//'`
-    repopick -t $t
+    if [[ $t == *-e* ]]; then
+       t=`echo $p | cut -d- -f2 | sed -r 's/^.{1}//'`
+       e=`echo $p | cut -d- -f3 | sed -r 's/^.{1}//'`
+       repopick -t $t -e $e
+    else
+       t=`echo $p | sed -r 's/^.{2}//'`
+       e=``
+       repopick -t $t
+    fi
   else
     repopick $p
   fi
